@@ -84,16 +84,16 @@ function Footer() {
             href="mailto:deference@decipher.ac"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center text-[14px] text-gray py-4 underline hover:text-sky-500 duration-200 ease-in-out mb-4 sm:mb-0 sm:mr-6"
+            className="flex items-center text-[14px] text-gray py-1 sm:py-8 underline hover:text-sky-500 duration-200 ease-in-out mb-2 sm:mb-0 sm:mr-6"
           >
-            <img src="/img/email.png" alt="Icon" className="w-4 h-4 mr-2" />
+            <img src="/img/email.png" alt="Icon" className="w-4 h-4" />
             Contact
           </a>
           <a
             href="https://github.com/wonj1012/deference-website/blob/main/CODE_OF_CONDUCT.md"
             target="_blank"
             rel="noreferrer"
-            className="text-[14px] text-gray py-4 underline hover:text-sky-500 duration-200 ease-in-out"
+            className="text-[14px] text-gray py-1 sm:py-8 underline hover:text-sky-500 duration-200 ease-in-out"
           >
             Code of Conduct
           </a>
