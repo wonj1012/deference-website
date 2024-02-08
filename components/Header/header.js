@@ -43,7 +43,10 @@ function Header() {
   });
 
   return (
-    <div className="overflow-hidden h-[57rem] lg:h-[auto] relative">
+    <div
+      className="overflow-hidden lg:h-auto relative"
+      style={{ height: "calc(100vh - 75px)" }}
+    >
       <img src="/img/illustra.png" className="bg-01" />
       <div className="container w-full flex items-center justify-center">
         <div
