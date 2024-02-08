@@ -156,7 +156,7 @@ function Footer() {
             Contact
           </a>
           <a
-            href="https://github.com/asyncapi/.github/blob/master/CODE_OF_CONDUCT.md"
+            href="https://github.com/wonj1012/deference-website/blob/main/CODE_OF_CONDUCT.md"
             target="_blank"
             rel="noreferrer"
             className="text-[14px] text-gray py-4 underline hover:text-sky-500 duration-200 ease-in-out"
