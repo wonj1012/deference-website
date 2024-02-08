@@ -7,7 +7,7 @@ function Sponsors({ sponsors }) {
     <div className="sponsor-bg container text-center">
       <div className="py-[80px] flex flex-col items-center">
         <Heading className="text-white">Event and Host Sponsor</Heading>
-        <div className="w-[718px] sm:w-full">
+        <div className="w-full max-w-[718px] mx-auto">
           <Paragraph className="mt-[40px]">
             이벤트 주최에 후원과 도움을 주신 모든 분께 깊은 감사를 드립니다.
             <br />
@@ -15,7 +15,7 @@ function Sponsors({ sponsors }) {
             감사드립니다!
           </Paragraph>
         </div>
-        <div className="flex justify-center mt-[40px] w-[1300px] sm:w-full sm:flex-col sm:justify-center sm:items-center">
+        <div className="flex justify-center mt-[40px] w-full flex-wrap">
           {sponsors &&
             sponsors.map((sponsor) => (
               <a
@@ -23,9 +23,13 @@ function Sponsors({ sponsors }) {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-[1300px] flex items-center sm:mt-6"
+                className="w-full sm:w-auto sm:mt-6 px-4"
               >
-                <img src={sponsor.img} alt="Sponsor" className="" />
+                <img
+                  src={sponsor.img}
+                  alt="Sponsor"
+                  style={{ maxWidth: "100%", height: "auto" }}
+                />
               </a>
             ))}
         </div>
