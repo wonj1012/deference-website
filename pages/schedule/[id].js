@@ -40,7 +40,9 @@ function Venue({ city }) {
         <div className="w-full h-full kinda-dark items-center flex flex-col justify-between">
           <div className="mt-[82px] container text-center flex flex-col items-center w-[1100px] lg:w-full sm:text-center">
             <Heading className="text-white">{city.name}</Heading>
-            <Paragraph className="mt-[24px]">{city.description}</Paragraph>
+            <Paragraph className="mt-[24px]" isYoutubeLink={true}>
+              {city.description}
+            </Paragraph>
 
             <Heading typeStyle="lg" className="text-white mt-[24px]">
               {city.address}

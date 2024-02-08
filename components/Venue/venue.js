@@ -27,7 +27,7 @@ function Venue({ className, city }) {
             {city.name},<br />
             {city.country}
           </Heading>
-          <Paragraph className="pt-[16px] pb-[8px]">
+          <Paragraph className="pt-[16px] pb-[8px]" isYoutubeLink={true}>
             {city.description}
           </Paragraph>
         </div>
