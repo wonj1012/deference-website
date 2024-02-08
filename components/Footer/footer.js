@@ -47,14 +47,15 @@ function Footer() {
 
   return (
     <div className="mt-[160px] w-full flex justify-center border-t border-[#333] py-[96px]">
-      <div className="flex items-center justify-between w-full max-w-[1131px] px-8">
+      {/* 기본적으로 flex-row를 사용하고, 모바일 뷰에서 flex-col 적용 */}
+      <div className="flex flex-row sm:flex-col items-center justify-between w-full max-w-[1131px] px-8">
         {/* 로고 */}
-        <div className="flex items-center">
+        <div className="mb-8 sm:mb-4">
           <img src="/img/logo.png" className="w-[150px]" alt="Logo" />
         </div>
 
         {/* Follow us 섹션 */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-8 sm:mb-4">
           {/* "Follow us" 텍스트 */}
           <div className="text-[16px] text-slate-300 mb-2">Follow us</div>
           {/* Follow us 링크들 */}
@@ -78,12 +79,12 @@ function Footer() {
         </div>
 
         {/* Contact & Code of Conduct */}
-        <div className="flex items-center">
+        <div className="flex flex-col sm:flex-row items-center">
           <a
             href="mailto:deference@decipher.ac"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center text-[14px] text-gray py-4 underline hover:text-sky-500 duration-200 ease-in-out mr-6"
+            className="flex items-center text-[14px] text-gray py-4 underline hover:text-sky-500 duration-200 ease-in-out mb-4 sm:mb-0 sm:mr-6"
           >
             <img src="/img/email.png" alt="Icon" className="w-4 h-4 mr-2" />
             Contact
