@@ -1,0 +1,43 @@
+[
+  {
+    "id": "2024",
+    "name": "DE-FERENCE 2024",
+    "country": "Proof of Contribution",
+    "date": "Feburary 17, 2024",
+    "description": "디퍼런스 2024에 여러분을 초대합니다.",
+    "img": "/img/deference2024.png",
+    "address": "서울 서초구 강남대로 311 드림플러스 강남",
+    "sponsors": ["/img/sponsors.png"],
+    "ticket": "https://www.youtube.com/@decipher-media/",
+    "freeTickets": "",
+    "ended": false,
+    "freeTicketText": "Grab Free Tickets",
+    "buttonText": "Watch Live Recording"
+  },
+  {
+    "id": "2023",
+    "name": "DE-FERENCE 2023",
+    "country": "Constitution of an Ox",
+    "date": "Feburary 11, 2023",
+    "description": "https://www.youtube.com/watch?v=QAUk4662G5M",
+    "img": "/img/deference2023.png",
+    "address": "서울 서초구 강남대로 311 드림플러스 강남",
+    "ticket": "https://www.youtube.com/watch?v=QAUk4662G5M",
+    "freeTickets": "",
+    "freeTicketText": "Grab Free Tickets",
+    "buttonText": "See Recordings"
+  },
+  {
+    "id": "2022",
+    "name": "DE-FERENCE 2022",
+    "country": "What's your Wallet",
+    "date": "Feburary 12, 2022",
+    "description": "https://www.youtube.com/watch?v=WZVkAaADeyI",
+    "img": "/img/deference2022.png",
+    "address": "서울 서초구 강남대로 311 드림플러스 강남",
+    "ticket": "https://www.youtube.com/watch?v=WZVkAaADeyI",
+    "freeTickets": "",
+    "freeTicketText": "Grab Free Tickets",
+    "buttonText": "See Recordings"
+  }
+]
