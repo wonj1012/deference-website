@@ -24,7 +24,7 @@ export default function Paragraph({
   }
 
   return isYoutubeLink ? (
-    <a target="_blank" href={children}>
+    <a target="_blank" href={children} rel="noreferrer">
       <div className={`${textColor} ${classNames} flex gap-2 items-center`}>
         <img src="/img/youtube.png" alt="youtube" className="w-5 h-4" />
         <p>Youtube Link</p>
