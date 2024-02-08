@@ -84,7 +84,7 @@ function Footer() {
     {
       name: "Twitter(X)",
       href: "https://twitter.com/decipherglobal",
-      imgUrl: "/img/X-twitter.png",
+      imgUrl: "/img/x-twitter.png",
     },
 
     {
