@@ -44,10 +44,17 @@ function Venue({ city }) {
               {city.description}
             </Paragraph>
 
-            <Heading typeStyle="lg" className="text-white mt-[24px]">
-              {city.address}
+            <Heading typeStyle="lg" className="text-white mt-[24px] pt-2">
+              <a
+                href={city.mapLink}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="hover:text-blue-500 transition-colors duration-300 text-lg"
+              >
+                {city.address}
+              </a>
             </Heading>
-            <Heading typeStyle="lg" className="text-white mt-[24px]">
+            <Heading typeStyle="lg" className="text-white mt-[24px] text-lg">
               {city.date}
             </Heading>
             {city.ended ? (
